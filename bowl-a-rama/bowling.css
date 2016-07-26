@@ -1,0 +1,80 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+.roll {
+  height: 50px;
+  width: 50px;
+  border: solid thin;
+  margin: 20px;
+  text-align: center;
+}
+
+.main-container {
+  height: 100px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.frame-box {
+  height: 100px;
+  width: 8.5%;
+  border: solid 2px;
+  display: inline-block;
+}
+
+.frame-number {
+  background-color: orange;
+  height: 18px;
+  width: 100%;
+  border-bottom: solid 2px black;
+  text-align: center;
+}
+
+.score {
+  height: 25px;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.first {
+  padding-top: 10px;
+}
+
+.second {
+  border: solid thin;
+  border-top: 0px;
+  border-right: 0px;
+  float: right;
+}
+
+.frame-total {
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.total-total {
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.total-box {
+  height: 100px;
+  width: 8.5%;
+  border: solid 2px;
+  margin-top: 5px;
+}
